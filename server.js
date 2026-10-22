@@ -3,8 +3,8 @@ import fetch from "node-fetch";
 import crypto from "crypto";
 const app = express();
 const PORT = process.env.PORT || 10000;
-const PIXEL_ID = process.env.PIXEL_ID || "2120882732130981";
-const ACCESS_TOKEN = process.env.ACCESS_TOKEN || "EAAXgShlr0PUBSZCjIR13ZBraH2w8jX1UKAvxGZA46cubXdyTITc2pXSqzLgJOGyRdixuXJZCv0F5FAuiICQYTKhXSGRpItLUN9yZA61JoBoQIZCbRxMKIZBT9aEqtgJmFfDZAdRZBmDeY92U2UZBlHvyeZBTZAQFl99dOIpbveV3CiuBZAnoyB0qCQ7c193oBDfeoAoDoBgZDZD";
+const PIXEL_ID = process.env.PIXEL_ID || "1469493875087874";
+const ACCESS_TOKEN = process.env.ACCESS_TOKEN || "EAAaZAMjqtXZB4BS90seA8cw5CBZAdiTYLPSBB5CUEUPnQZCRav9JXRPghVWX2nKbeOXTQ1uRZCBePZBpEZBntzw1SFdnzAOLyOQNjqh90P44BhY6dkZARKELNdNahOubBE9sZAxDYKpe0jxfDYbOurymRZBmBTVfMKfevbn1jIXwMq4xr3H7l8KEue4z7zgZBEYZCcRutwZDZD";
 const API_VERSION = "v21.0";
 
 const hash = (value) =>
